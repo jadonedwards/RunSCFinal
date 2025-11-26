@@ -1,0 +1,352 @@
+body{
+    display:flex;
+    flex-direction:column;
+    background-color:#6666ff;
+    margin:0;
+    padding:0;
+}
+#main-header{
+    display:flex;
+    position:relative;
+    bottom:100px;
+    left:150px;
+    font-family:Lobster;
+}
+
+
+.main{
+    height:260px;
+    width:100%;
+}
+sectionone{
+    display:flex;
+    flex-direction:column;
+}
+.logo{
+    height:150px;
+    top:50px;
+}
+header{
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction:row;
+    background-color:royalblue;
+    color:white;
+    position:relative;
+
+}
+.w-3 container{
+    display:flex;
+    align-items:flex-end;
+}
+.navbar {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+}
+.trailnav{
+    background-color:cornflowerblue;
+    flex-basis:20%;
+    text-align:inherit;
+    font-family:PT Sans;
+
+}
+
+.headingnbutton{
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    justify-content:space-between;
+}
+.mostvisited{
+    padding:30px;
+    background-color:#cee1fd;
+    display:flex;
+    flex-direction:column;
+    flex-basis:80%;
+    font-family:PT Sans;
+        
+    
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+font-family:PT Sans;
+}
+.navbar li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.trailnav ul {
+  list-style: none;
+  margin: 0;
+  text-align:center;
+  padding-right:50px;
+    font-family:PT Sans;
+}
+
+.trailnav a{
+  color: royalblue;
+  text-decoration: none;
+  font-size: 20px; 
+}
+
+.trailnav ul li:hover{
+    background-color:darkblue;
+    margin:4px;
+}
+
+.trailnav h3{
+    text-align:center;
+}
+
+.navbar ul li:hover{
+    background-color:darkblue;
+}
+.text1{
+    background-color:#cee1fd;
+    padding:60px;
+    font-family:PT Sans;
+}
+.pictures{
+   max-width:100%;
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:#98c0fb;
+    padding:100px 0px;
+}
+.runn{
+    max-width:20%;
+}
+.runn img{
+    max-width:100%;
+    height:auto;
+}
+@media screen and (min-width: 768px) {
+  .runn{
+    max-width: 100%;
+  }
+}
+.pictures img{
+    width:200px;
+    height:150px;
+}
+@media screen and (min-width: 768px) {
+  .pictures{
+    max-width: 100%;
+  }
+}
+.ceotxt{
+   display: flex;
+   flex-direction:column;
+   justify-content:center;
+    align-items:center;
+   flex-basis:30%;
+        font-family:PT Sans;
+
+}
+.ceotxt img{
+    width:150px;
+    display: flex;
+    justify-content:center;
+    flex-basis:30%;
+}
+@media screen and (min-width: 768px) {
+  .ceotxt{
+      max-width:100%;
+  }
+}
+.trailpic{
+    max-width:100%;
+    height:auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#98c0fb;
+}
+.trailpic img{
+    max-width:100%;
+    height:auto;
+    padding-bottom:120px;
+}
+@media screen and (min-width: 768px) {
+  .trailpic{
+    max-width: 100%;
+  }
+}
+.image-container{
+    max-width:100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img{
+    max-width:100%;
+    height:auto;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    max-width: 100%;
+  }
+}
+.text2{
+    padding:50px;
+    margin:0;
+    font-family:PT Sans;
+}
+.section2{
+    display:flex;
+    flex-basis:70%;
+    padding:20px;
+    font-family:PT Sans;
+
+}
+.section10{
+    background-color:#84b3fb;
+    
+}
+.section6{
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    justify-content:space-between;
+}
+footer{
+    background-color:royalblue;
+    text-align:center;
+    margin:0;
+    padding:10px;
+}
+.footerpics{
+    width:25px;
+    height:25px;
+    display:flex;
+    flex-direction:row;
+    background-color:royalblue;
+}
+.ceo{
+    bottom:75px;
+    position:relative;
+    left:30px;
+}
+
+.centerthis{
+    text-align:center;
+    padding:30px 100px;
+    background-color:#98c0fb;
+    font-family:PT Sans;
+}
+.bottompage{
+    display:flex;
+}
+.trailone{
+    max-width:100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.runners4{
+    max-width:100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.runners4 img{
+    max-width:100%;
+    height:300px;
+} 
+.trailone img{   
+    max-width:30%;
+    height:auto;
+    padding:20px;
+}
+@media screen and (min-width: 768px) {
+  .runners4 {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .trailone {
+    max-width: 100%;
+  }
+}
+.visiteduno{
+    margin-left:40px;
+}
+
+
+.findgroup{
+    background-color:#cee1fd;
+    display:flex;
+    padding:50px 0px;
+}
+.runn{
+    width:250px;
+    height:200px;
+}
+.findgroup2{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    font-family:PT Sans;
+}
+.levels{
+    background-color:#98c0fb;
+    display:flex;
+    justify-content:space-evenly;
+    text-align:center;
+    padding:10px 30px;
+    font-family:PT Sans;
+}
+.intermediate{
+padding: 0px 50px;
+}
+.lvlpics{
+    width:30%;
+    padding:35px;
+    
+}
+.findgrouptitle{
+    font-family:PT Sans;
+}
+.levelpics{
+background-color:#84b3fb;
+    padding: 20px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.footercontent{
+    font-family:PT Sans;f
+}
+.topraces{
+    background-color:#cee1fd;
+    font-family:PT Sans;
+    flex-basis:80%;
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+}
+.topraces2{
+    display:flex;
+    flex-direction:column;
+}
+#h2header2{
+    padding:10px;
+}

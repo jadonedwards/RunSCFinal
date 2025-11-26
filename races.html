@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta name="description" content="Client Site Project">
+        <meta chartset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <title>Coding 3</title>
+</head>
+    <body>
+<header>       
+        <img class="logo" src="images/RunSC.png.PNG">
+    <h1 id="main-header">Connecting Carolina Runners</h1>
+        <nav class="navbar">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="trails.html">Trails</a></li>
+    <li><a href="groups.html">Groups</a></li>
+    <li><a href="races.html">Races</a></li>
+  </ul>
+</nav>
+</header>
+    <div class="centerthis">
+        <h1>Competitive Runs</h1>
+            <p>Competitive runs are typically divided into categories based on age and gender, with participants competing against others in their respective categories. They may also have different divisions based on experience, such as novice or elite, to ensure fair competition. These runs are often well-organized events that may require registration fees and offer prizes for top finishers. They may also be associated with a charity or a cause and serve as a way to raise awareness or funds for a particular issue or organization.</p>
+    </div>
+    <div class="image-container">
+    <img src="images/competitiveruns.jpg" alt="Competitive Runs">
+    </div>
+<div class="bottompage">
+<div class="trailnav"> 
+    <h3>Find Races by County</h3>
+      <ul>
+
+    <li>Abbeville</li>
+    <li>Aiken</li>
+    <li>Allendale</li>
+    <li>Anderson</li>
+    <li>Bamberg</li>
+    <li>Barnwell</li>
+    <li>Beaufort</li><li>
+    <li>Berkely</li>
+    <li>Calhoun</li>
+    <li>Charleston</li>
+    <li>Cherokee</li>
+    <li>Chester</li>
+    <li>Chesterfield</li>
+    <li>Clarendon</li>
+    <li>Colleton</li>
+    <li>Darlington</li>
+    <li>Dillon</li>
+    <li>Dorchestor</li>
+    <li>Edgefield</li>
+    <li>Fairfield</li>
+    <li>Florence</li>
+    <li>Georgetown</li>
+    <li>Greenville</li>
+    <li>Greenwood</li>
+    <li>Hampton</li>
+    <li>Horry</li>
+    <li>Jasper</li>
+    <li>Kershaw</li>
+    <li>Lancaster</li>
+    <li>Laurens</li>
+    <li>Lee</li>
+    <li>Lexington</li>
+    <li>Marion</li>
+    <li>Marlboro</li>
+    <li>McCormick</li>
+    <li>Newberry</li>
+    <li>Oconee</li>
+    <li>Orangeburg</li>
+    <li>Pickens</li>
+    <li>Richland</li>
+  </ul>
+</div>
+    <div class="topraces">
+        <div class="topraces2">
+            <h2 id="#h2header2">Upcoming Races</h2>
+        <div class="week1">
+            <h3>Saturday, March 11th</h3>
+            <p>Run Cane Bay Half Marathon (Summerville, SC)</p>
+            <p>Chase the Rainbow 5K (Greenville, SC)</p>
+            <p>Chase the Rainbow 5K (Spartanburg, SC)</p>
+            <p>Hilton Head Shamrock Run (Hilton Head, SC)</p>
+        </div>
+        <div class="week2">
+            <h3>Sunday, March 12th</h3>
+            <p>King's Highway Trail Race (Georgetown, SC)</p>
+            <p>Myrtle Beach OCR Spring 5k (Myrtle Beach, SC)</p>
+            <p>Peyton's Wild and Wacky 5k Ultra (Mt. Pleasant, SC)</p>
+        </div>
+        <div class="week3">
+            <h3>Saturday, March 18th</h3>
+            <p>Puppies and Patriots 5k (Seneca, SC)</p>
+            <p>Race for the Green (Seneca, SC)</p>
+            <p>Ravenel Railroad Run (Ravenel, SC)</p>
+            <p>Summerville Family YMCA Shamrock Shuffle (Summerville, SC)<p>
+        </div>
+        <div class="week4">
+            <h3>Sunday, March 19th</h3>
+            <p>Healthy Kids Running Series (Fort Mill, SC)</p>
+            <p>Lucky Dog Rock n' Run 5K (Myrtle Beach, SC)</p>
+            <p>Catch the Leprachaun 5K (Myrtle Beach, SC)</p>
+        </div>
+        </div>
+        <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides w3-animate-top" src="images/takeurmarks1.jpeg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="images/takeurmarks2.jpg" style="width:100%">
+  <img class="mySlides w3-animate-top" src="images/takeurmarks3.jpg" style="width:100%">
+ 
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+</script>
+
+    </div>
+</div>
+
+
+  <footer>
+        <div class="footercontent">
+        <p>RUNSC</p>
+        <p>832-555-6724</p>
+        <p>13 Spring Ave Greenville, SC</p>
+        <p>gorunsc@gmail.com</p>
+        </div>
+        <div class="footerpics">
+            <a href="https://www.twitter.com"><img src="images/tweettweet.png" width="20px;" height="20px;"></a>
+            <a href="https://www.facebook.com"><img src="images/book.png" width="20px;" height="20px;"></a>
+            <a href="https://www.instagram.com"><img src="images/gram.png" width="20px;" height="20px;"></a>
+        </div>
+    </footer>
+        </body>
+</html>
